@@ -1,7 +1,11 @@
 .PHONY: build test package clean
 
 build:
+<<<<<<< HEAD
 	pip3 install . --user --process-dependency-links
+=======
+	pip3 install . --process-dependency-links --user
+>>>>>>> 604a8bd... modified makefile for local install
 
 test:
 	python3 -c "import aw_watcher_window"
